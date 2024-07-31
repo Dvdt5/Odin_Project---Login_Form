@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+#logo {
+    width: 30%;
+    position: absolute;
+    top: 5vh;
+}
+
 #container {
     background-color: rgba(0, 0, 0, 0.5);
     width: 50vw;
@@ -19,14 +25,37 @@ body {
     background-color: white;
     border-radius: 50px;
     width: 70%;
-    height: 50%;
+    height: 60%;
     margin: auto;
+    padding: 2%;
     position: relative;
     top: 25vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#logo {
-    width: 30%;
-    position: absolute;
-    top: 5vh;
+#form {
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#submit-btn {
+    font-size: large;
+    margin: 5%;
+    padding: 3%;
+    width: 45%;
+    background-color: white;
+    border-radius: 35px;
+    border-color: brown;
+}
+
+.input-container {
+    width: 40%;
+}
+
+.input-box {
+    font-size: large;
+    margin: 2% 0 6% 0;
+    padding: 3%;
 }
