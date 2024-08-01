@@ -13,6 +13,23 @@ body {
     top: 5vh;
 }
 
+#header-text {
+    text-align: center;
+    color: brown;
+}
+
+#text-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30vw;
+    height: 25vh;
+    position: absolute;
+    top: 25vh;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
 #container {
     background-color: rgba(0, 0, 0, 0.5);
     width: 50vw;
@@ -40,6 +57,7 @@ body {
     flex-wrap: wrap;
 }
 
+
 #submit-btn {
     font-size: large;
     margin: 5%;
@@ -48,6 +66,16 @@ body {
     background-color: white;
     border-radius: 35px;
     border-color: brown;
+}
+
+#login-text {
+    text-align: center;
+    font-size: large;
+    margin: 5px;
+}
+
+#login-text a {
+    color: brown;
 }
 
 .input-container {
